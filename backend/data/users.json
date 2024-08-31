@@ -1,0 +1,30 @@
+[
+  {
+    "id": "6d269251-a912-490c-8798-6a61f787e58a",
+    "name": "Anneshu Nag",
+    "email": "nkworks@gmail.com",
+    "role": "user",
+    "posts": [],
+    "reviews": [
+      "5d673436-6472-4272-b00d-aad6510e297c"
+    ],
+    "likedNovels": 0,
+    "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "password": "$2a$08$ijADkgdBdMT/X8UJMzpZ6O7tUcw.33.I787Nbz6F9XO63ZjDeNSzq"
+  },
+  {
+    "id": "b97ab69c-d9ea-49af-a025-29314b1f4982",
+    "name": "aman",
+    "email": "aman@gmail.com",
+    "role": "author",
+    "posts": [
+      "d955612a-7b02-4688-b6da-7b214bcfc73c",
+      "39627358-5a51-4713-83ee-f0dfce14f69d",
+      "f56818de-45fa-4f6f-8402-7d874cba4797"
+    ],
+    "reviews": [],
+    "likedNovels": 0,
+    "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "password": "$2a$08$smLDGniWnv7KD/Ll7nTJ8OSy7fNjd3acI2F5XhpthJxA2SKFnPRN."
+  }
+]

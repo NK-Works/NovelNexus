@@ -1,0 +1,16 @@
+[
+  {
+    "id": "5a995dc4-4ef4-47d5-be77-411c21caff88",
+    "content": "ur name",
+    "likes": 0,
+    "postId": "f56818de-45fa-4f6f-8402-7d874cba4797",
+    "timestamp": "30/8/2024, 9:03:40 pm"
+  },
+  {
+    "id": "0043e106-7b62-4a4f-ba2b-3b337f7285c5",
+    "content": "hey bro name",
+    "likes": 0,
+    "postId": "f56818de-45fa-4f6f-8402-7d874cba4797",
+    "timestamp": "30/8/2024, 9:07:14 pm"
+  }
+]

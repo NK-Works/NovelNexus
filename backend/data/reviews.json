@@ -1,0 +1,53 @@
+[
+  {
+    "id": "83c033b8-46bc-4eb2-b944-0b3e9df06aae",
+    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
+    "reviewTitle": "Good",
+    "reviewContent": "Keep it up.",
+    "likes": 0,
+    "replies": [],
+    "timestamp": "31/8/2024, 8:15:23 pm"
+  },
+  {
+    "id": "598649ff-2c3f-48d2-ac25-58bf648724d0",
+    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
+    "reviewTitle": "Good",
+    "reviewContent": "Keep it up.",
+    "likes": 0,
+    "replies": [],
+    "timestamp": "31/8/2024, 8:15:47 pm"
+  },
+  {
+    "id": "d9673959-48f7-4ceb-b933-cd3304de277d",
+    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
+    "reviewTitle": "Good",
+    "reviewContent": "Keep it up.",
+    "likes": 0,
+    "replies": [],
+    "timestamp": "31/8/2024, 8:18:21 pm"
+  },
+  {
+    "id": "5d673436-6472-4272-b00d-aad6510e297c",
+    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
+    "reviewTitle": "Good",
+    "reviewContent": "Keep it up.",
+    "likes": 0,
+    "replies": [
+      {
+        "id": "f645f8f6-38c9-4f81-92de-dec72be8c174",
+        "content": "Nyc review",
+        "likes": 0,
+        "reviewId": "5d673436-6472-4272-b00d-aad6510e297c",
+        "timestamp": "31/8/2024, 8:24:22 pm"
+      },
+      {
+        "id": "f5b1147c-0565-4853-a001-c95d7e8f9541",
+        "content": "good work review",
+        "likes": 0,
+        "reviewId": "5d673436-6472-4272-b00d-aad6510e297c",
+        "timestamp": "31/8/2024, 8:24:38 pm"
+      }
+    ],
+    "timestamp": "31/8/2024, 8:18:31 pm"
+  }
+]
