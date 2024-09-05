@@ -1,21 +1,41 @@
 [
   {
-    "id": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
-    "title": "LONE",
-    "description": "exploringWorld",
-    "coverPhoto": "coverPhot",
-    "timestamp": "31/8/2024, 7:27:09 pm",
+    "id": "716d1c77-2a97-4123-ba45-7809126eeea1",
+    "title": "LONE: The Journey Beyond",
+    "description": "The story of Reven Greh",
+    "coverPhoto": "479ec674-9dfb-414a-a217-9ddf9904bbda.png",
+    "timestamp": "1/9/2024, 5:32:01 pm",
     "likes": 0,
-    "introVideo": "video",
+    "introVideo": "https://www.youtube.com/embed/QcznuHkE3Q0?si=FqFuD7T3qXVDJK4k",
     "reviews": [
-      "83c033b8-46bc-4eb2-b944-0b3e9df06aae",
-      "598649ff-2c3f-48d2-ac25-58bf648724d0",
-      "d9673959-48f7-4ceb-b933-cd3304de277d",
-      "5d673436-6472-4272-b00d-aad6510e297c"
+      "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+      "a92cdea5-64d0-4e60-aee6-10295b409059"
     ],
-    "chapters": [
-      "2146a05b-9129-4319-a7bd-099b453371af"
-    ],
+    "chapters": [],
     "authorId": "ed939dd4-dbcc-4f87-ad41-f8a6c8d6b3c5"
+  },
+  {
+    "id": "12260af0-5440-4371-9812-7ef6e2bfc10f",
+    "title": "Matrix Unleashed ",
+    "description": "The story of a boy whose life changed the day when aliens invaded the Earth.",
+    "coverPhoto": "1a2dec6b-5a43-4868-9fcd-93307f2ec128.png",
+    "timestamp": "1/9/2024, 5:33:23 pm",
+    "likes": 0,
+    "introVideo": "https://www.youtube.com/embed/RlH87-6N-No?si=Qzh8q_XOpxAquzvu",
+    "reviews": [],
+    "chapters": [],
+    "authorId": "ed939dd4-dbcc-4f87-ad41-f8a6c8d6b3c5"
+  },
+  {
+    "id": "3cf5922b-a685-4369-970f-bf53d39093f5",
+    "title": "The Second Coming of Gluttony",
+    "description": "Seol Jihu comes back in time to save the world of paradise from parasites",
+    "coverPhoto": "9a4d39d2-8351-4e23-a006-923365fdbb8f.png",
+    "timestamp": "2/9/2024, 11:51:22 pm",
+    "likes": 0,
+    "introVideo": "https://www.youtube.com/embed/PEGqklsBtfY?si=k2onZt68oZaeNHa3",
+    "reviews": [],
+    "chapters": [],
+    "authorId": "6d2fecc7-58d9-4d64-99e1-6b5a3d73bcc3"
   }
 ]

@@ -48,11 +48,8 @@ const loginUser = (req, res) => {
             if (users[i].email == req.body.email) {
                 if (bcrypt.compareSync(req.body.password, users[i].password)) {
                     // Generate JWT
-                    const token = jwt.sign({ userId: users[i].id }, secret_key);
-                    res.cookie("token", token, {
-                        // httpOnly: true, 
-                        maxAge: 24 * 60 * 60 * 1000 // 1 day
-                    })
+                    const token = jwt.sign({ userId: users[i].id }, secret_key, {expiresIn: '1d'});
+                    res.cookie("token", token)
                     res.status(200).json({
                         msg: "Login successful...",
                         token: token

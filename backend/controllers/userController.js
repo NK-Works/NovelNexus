@@ -1,6 +1,7 @@
 const path = require('path');
 
 const { writeFile, readFile } = require('../models/info');
+const { Console } = require('console');
 const usersFilePath = path.join(__dirname, '..', 'data', 'users.json');
 
 const getAllUsers = (req, res) => {
@@ -16,7 +17,7 @@ const getUserByName = (req, res) => {
   const users = readFile(usersFilePath);
   const usersFound = [];
   for (let i = 0; i < users.length; i++) {
-    if (users[i].name == req.params.name) {
+    if (users[i].name === req.params.name) {
       usersFound.push(users[i]);
     }
   }
@@ -27,8 +28,23 @@ const getUserByName = (req, res) => {
   }
 }
 
+const getUserById = (req, res) => {
+  const users = readFile(usersFilePath);
+  const { userId } = req.params;
+  
+  for (let i = 0; i < users.length; i++) {
+    // console.log(userId)
+    // console.log(users[i].id)
+    if (users[i].id == userId) {
+      return res.status(200).json(users[i]);
+    }
+  }
+    return res.status(404).send("No users found...");
+}
+
 module.exports = {
   getAllUsers,
-  getUserByName
+  getUserByName,
+  getUserById
 };
 

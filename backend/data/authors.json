@@ -5,7 +5,24 @@
     "penName": "nkworks",
     "bio": "exploringWorld",
     "novels": [
-      "7d8936a4-e56f-421d-832e-d05b5a17bd0e"
+      "716d1c77-2a97-4123-ba45-7809126eeea1",
+      "12260af0-5440-4371-9812-7ef6e2bfc10f"
     ]
+  },
+  {
+    "id": "6d2fecc7-58d9-4d64-99e1-6b5a3d73bcc3",
+    "userId": "8f9c05a1-d944-4aa5-a5a1-633faf10291d",
+    "penName": "penSlave",
+    "bio": "Taking my imagination out",
+    "novels": [
+      "3cf5922b-a685-4369-970f-bf53d39093f5"
+    ]
+  },
+  {
+    "id": "b7d789f7-f125-4876-9bfa-75d4f696d919",
+    "userId": "1bedf737-fbe5-4f51-afc7-bdbce500165b",
+    "penName": "Sleepy_Writer",
+    "bio": "Let's create...",
+    "novels": []
   }
 ]

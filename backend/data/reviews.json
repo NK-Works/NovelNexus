@@ -1,53 +1,52 @@
 [
   {
-    "id": "83c033b8-46bc-4eb2-b944-0b3e9df06aae",
-    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
-    "reviewTitle": "Good",
-    "reviewContent": "Keep it up.",
-    "likes": 0,
-    "replies": [],
-    "timestamp": "31/8/2024, 8:15:23 pm"
-  },
-  {
-    "id": "598649ff-2c3f-48d2-ac25-58bf648724d0",
-    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
-    "reviewTitle": "Good",
-    "reviewContent": "Keep it up.",
-    "likes": 0,
-    "replies": [],
-    "timestamp": "31/8/2024, 8:15:47 pm"
-  },
-  {
-    "id": "d9673959-48f7-4ceb-b933-cd3304de277d",
-    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
-    "reviewTitle": "Good",
-    "reviewContent": "Keep it up.",
-    "likes": 0,
-    "replies": [],
-    "timestamp": "31/8/2024, 8:18:21 pm"
-  },
-  {
-    "id": "5d673436-6472-4272-b00d-aad6510e297c",
-    "novelId": "7d8936a4-e56f-421d-832e-d05b5a17bd0e",
-    "reviewTitle": "Good",
-    "reviewContent": "Keep it up.",
+    "id": "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+    "userId": "1bedf737-fbe5-4f51-afc7-bdbce500165b",
+    "novelId": "716d1c77-2a97-4123-ba45-7809126eeea1",
+    "reviewTitle": "Great Work",
+    "reviewContent": "Best novel to read out there",
     "likes": 0,
     "replies": [
       {
-        "id": "f645f8f6-38c9-4f81-92de-dec72be8c174",
-        "content": "Nyc review",
+        "id": "d949eb7b-02e3-43f5-ab7e-848219cc72d0",
+        "content": "Good review",
         "likes": 0,
-        "reviewId": "5d673436-6472-4272-b00d-aad6510e297c",
-        "timestamp": "31/8/2024, 8:24:22 pm"
+        "reviewId": "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+        "timestamp": "3/9/2024, 2:33:00 am"
       },
       {
-        "id": "f5b1147c-0565-4853-a001-c95d7e8f9541",
-        "content": "good work review",
+        "id": "0a7b6db7-cd63-44a3-8d0a-d59f7fca81c7",
+        "content": "Understood",
         "likes": 0,
-        "reviewId": "5d673436-6472-4272-b00d-aad6510e297c",
-        "timestamp": "31/8/2024, 8:24:38 pm"
+        "reviewId": "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+        "timestamp": "3/9/2024, 3:07:42 am"
+      },
+      {
+        "id": "df69f795-896d-4f99-82f7-bbd0c6a8af0e",
+        "content": "Nice work",
+        "likes": 0,
+        "reviewId": "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+        "timestamp": "3/9/2024, 9:46:37 am"
       }
     ],
-    "timestamp": "31/8/2024, 8:18:31 pm"
+    "timestamp": "2/9/2024, 11:31:15 am"
+  },
+  {
+    "id": "a92cdea5-64d0-4e60-aee6-10295b409059",
+    "userId": "1bedf737-fbe5-4f51-afc7-bdbce500165b",
+    "novelId": "716d1c77-2a97-4123-ba45-7809126eeea1",
+    "reviewTitle": "Interesting Plot",
+    "reviewContent": "Great Storyline",
+    "likes": 0,
+    "replies": [
+      {
+        "id": "7322d7ee-0c0e-4ecd-ad81-aea6d5e4eae5",
+        "content": "Really :)",
+        "likes": 0,
+        "reviewId": "a92cdea5-64d0-4e60-aee6-10295b409059",
+        "timestamp": "3/9/2024, 3:11:13 am"
+      }
+    ],
+    "timestamp": "3/9/2024, 1:16:44 am"
   }
 ]

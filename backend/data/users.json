@@ -26,5 +26,43 @@
     "likedNovels": 0,
     "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "password": "$2a$08$smLDGniWnv7KD/Ll7nTJ8OSy7fNjd3acI2F5XhpthJxA2SKFnPRN."
+  },
+  {
+    "id": "1bedf737-fbe5-4f51-afc7-bdbce500165b",
+    "name": "varun",
+    "email": "varun@gmail.com",
+    "role": "author",
+    "posts": [
+      "f2608d2d-89a9-4b0f-865c-d00362e08d2d"
+    ],
+    "reviews": [
+      "ebbda30e-15aa-432a-9d9c-548ec40473fc",
+      "a92cdea5-64d0-4e60-aee6-10295b409059"
+    ],
+    "likedNovels": 0,
+    "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "password": "$2a$08$mY8xK51n4fUFWi86PU60Ku3yyAKLQhbw07uWp2WlmNAl3OjkhIix2"
+  },
+  {
+    "id": "8f9c05a1-d944-4aa5-a5a1-633faf10291d",
+    "name": "ansh",
+    "email": "bansal@gmail.com",
+    "role": "author",
+    "posts": [],
+    "reviews": [],
+    "likedNovels": 0,
+    "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "password": "$2a$08$BDnp18u/zbTh.O/YeTb/bOT8ZcGoPf3dn3LIbPzqTuh9MWPDLYYV6"
+  },
+  {
+    "id": "92c96e86-fe53-4e65-bc9b-2b3507b4925f",
+    "name": "akshay",
+    "email": "akshay@gmail.com",
+    "role": "user",
+    "posts": [],
+    "reviews": [],
+    "likedNovels": 0,
+    "userimage": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "password": "$2a$08$16rY8YXTqvKBpkqyZgLjGOsaelEsFJmsdeYho5seMp8wxPpbTFMxu"
   }
 ]

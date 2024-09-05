@@ -14,7 +14,7 @@ const uploadNovel = (req, res) => {
     if (!userId || !title || !description || !introVideo) {
         res.status(400).json({ msg: "Novel details required." });
     }
-    
+
     if (!req.file) {
         return res.status(404).send("No file were uploaded. ");
     }
@@ -45,7 +45,7 @@ const uploadNovel = (req, res) => {
         chapters: [],
         authorId: author.id
     };
-
+    console.log("here")
     const novels = readFile(novelsFilePath);
     novels.push(newNovel);
     writeFile(novelsFilePath, novels);
@@ -63,6 +63,7 @@ const getNovels = (req, res) => {
         const novels = readFile(novelsFilePath);
         res.status(200).json(novels);
     } catch (error) {
+        console.log(error)
         res.status(500).json({ message: error.message });
     }
 }
@@ -84,21 +85,21 @@ const getNovelByTitle = (req, res) => {
     const novels = readFile(novelsFilePath);
     const novelsFound = [];
     for (let i = 0; i < novels.length; i++) {
-      if (novels[i].title == req.params.title) {
-        novelsFound.push(novels[i]);
-      }
+        if (novels[i].title == req.params.title) {
+            novelsFound.push(novels[i]);
+        }
     }
     if (novelsFound.length > 0) {
-      res.status(200).json(novelsFound);
+        res.status(200).json(novelsFound);
     } else {
-      res.status(404).send("No novels found...");
+        res.status(404).send("No novels found...");
     }
 }
 
 const uploadChapter = (req, res) => {
     const { novelId } = req.params;
     const { chapterName, chapterContent } = req.body;
-    
+
     if (!novelId || !chapterName || !chapterContent) {
         res.status(400).json({ msg: "Chapter Content required." });
     }
@@ -162,8 +163,8 @@ const getChaptersByNovelId = (req, res) => {
 const uploadReview = (req, res) => {
     const { novelId } = req.params;
     const { userId, reviewTitle, reviewContent } = req.body;
-    
-    if (!novelId || !reviewTitle || !reviewContent) {
+
+    if (!userId || !novelId || !reviewTitle || !reviewContent) {
         res.status(400).json({ msg: "Review Content required." });
     }
 
@@ -176,12 +177,13 @@ const uploadReview = (req, res) => {
         }
     }
 
-    if (!novel) { 
+    if (!novel) {
         return res.status(404).json({ msg: "Novel not found" });
     }
 
     const newReview = {
         id: uuidv4(),
+        userId: userId,
         novelId: novelId,
         reviewTitle: reviewTitle,
         reviewContent: reviewContent,
@@ -211,10 +213,10 @@ const uploadReview = (req, res) => {
         user.reviews.push(newReview.id);
         writeFile(usersFilePath, users);
     } else {
-        res.status(404).json({ msg: "User not found." });
+        return res.status(404).json({ msg: "User not found." });
     }
 
-    res.status(201).json({ msg: "Review uploaded", chapter: newReview });
+    return res.status(201).json({ msg: "Review uploaded", chapter: newReview });
 };
 
 const addReplyToReview = (req, res) => {
@@ -254,6 +256,33 @@ const getReviews = (req, res) => {
     }
 }
 
+const getReviewsByNovelId = (req, res) => {
+    try {
+        const reviews = readFile(reviewsFilePath);
+        const reviewsFound = [];
+        for (let i = 0; i < reviews.length; i++) {
+            if (reviews[i].novelId === req.params.novelId) {
+                reviewsFound.push(reviews[i]);
+            }
+        }
+        res.status(200).json(reviewsFound);
+    } catch (error) {
+        res.status(404).json('No reviews found');
+    }
+}
+const getReviewsById = (req, res) => {
+    try {
+        const reviews = readFile(reviewsFilePath);
+        for (let i = 0; i < reviews.length; i++) {
+            if (reviews[i].id == req.params.reviewId) {
+                res.status(200).json(reviews[i]);
+            }
+        }
+    } catch (error) {
+        res.status(404).json('No reviews found');
+    }
+}
+
 module.exports = {
     uploadNovel,
     getNovels,
@@ -263,5 +292,7 @@ module.exports = {
     getChaptersByNovelId,
     uploadReview,
     addReplyToReview,
-    getReviews
+    getReviews,
+    getReviewsByNovelId,
+    getReviewsById
 }
